@@ -1,0 +1,143 @@
+@import "../bootstrap-5.0.2/scss/bootstrap.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family:Display;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 190px;
+    background-image: url(../img/img_nav.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+.container-fluid{
+    padding-left: 50%;
+    background: none;    
+}
+.bg-logo{
+    background: none;
+}
+.logo{
+    width: 60%;
+    padding: 0;
+    background: none;
+    margin-left: 10%;
+}
+
+//separador//
+
+.logo-2{
+    width: 35%;
+}
+.img-grupo{
+    width: 100%;
+    height: 700px;
+    padding: 2%;
+}
+.exito{
+    left: 50%;
+    right: 50%;
+}
+
+//separador//
+.info{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.h2-title{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.container-shop{
+    margin-bottom: 10%;
+}
+.ver_mas{
+    text-decoration: none;
+}
+//separador//
+.footer{
+    width: 100%;
+    height: 250px;
+}
+.container-footer{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+}
+.social{
+    width: 60px;
+    
+}
+.bg-footer{
+    background: none;
+}
+//separador index-music//
+.container-music{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.footer-music{
+    width: 100%;
+    height: 250px;
+    
+}
+.footer-items{
+    transform: translateY(5%);
+}
+.text-music{
+    font-size: rgb(161, 20, 20);
+}
+//separador myv//
+.card-img-top{
+    width: 100%;
+    height: 80%;
+}
+.tarjeta{
+    width: 50%;
+    right: 0%;
+    left: 23%;
+}
+
+//--------------------------------------------------------------------//
+.fondo-negro{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.fondo-negro2{
+    width: 100%;
+    height: 170px;
+    background-color: black;
+}
+.fondo-negro3{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.cap-video{
+    width: 65%;
+    margin-left: 15%;
+}
+.xd{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.fondo-rojo{
+    width: 100%;
+    height: 10px;
+    background-color: #DC3545;
+}
